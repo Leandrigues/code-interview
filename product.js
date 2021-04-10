@@ -1,4 +1,4 @@
-// DailyCoding
+// DailyCoding 2
 const product = (arr) => {
   let entireProduct = 1
   let answer = []
