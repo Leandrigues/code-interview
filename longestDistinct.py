@@ -17,3 +17,5 @@ def solution(s, k):
         break
   print(max(substrings, key=len))
   return longestSubstringLength
+
+print(solution('aaaaaaaaabc', 2))

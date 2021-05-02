@@ -1,4 +1,4 @@
-# Daily Coding 8
+# DailyCoding 8
 class Node:
     def __init__(self, val, left=None, right=None):
         self.val = val
