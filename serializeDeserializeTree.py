@@ -30,6 +30,14 @@ def deserialize(s):
   vals = iter(s.split())
   return helper()
 
+# Solution without having to escape parenthesis
+def serialize2(root):
+  if root == None:
+    return '@'
+  else:
+    left = serialize(root.left)
+    right = serialize(root.right)
+    return f'{root.val} {left} {right}'
 
 node = Node('root', Node('left', Node('left.left')), Node('right'))
 serialized = serialize(node)
